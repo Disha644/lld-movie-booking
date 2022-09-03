@@ -12,3 +12,5 @@
 - Movies can have 4 different generes - ACTION, HORROR, COMEDY, ROMANCE.
 - The seats for a show can have 3 different types - RECLINER, REGULAR, PREMIUM.
 - The movie booking application mantains the list of past bookings for a registered user. This is important for user to be able to cancel the tickets.
+
+#### Use Case Diagram
