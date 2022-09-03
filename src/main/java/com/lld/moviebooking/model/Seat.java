@@ -20,5 +20,4 @@ public class Seat {
         this.reserved = reserved;
         this.price = price;
     }
-
 }

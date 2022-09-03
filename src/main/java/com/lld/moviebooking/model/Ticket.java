@@ -1,6 +1,5 @@
 package com.lld.moviebooking.model;
 
-import java.util.List;
 import java.util.UUID;
 
 import lombok.Getter;
@@ -10,8 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Theater {
+public class Ticket {
     private UUID id;
-    private String name;
-    private List<Show> shows;
+    private RegisteredUser user;
+    private Show show;
 }
