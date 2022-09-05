@@ -1,6 +1,7 @@
 package com.lld.moviebooking.model;
 
-import java.util.UUID;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,7 +9,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public abstract class User {
-    protected UUID id;
+    
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    protected int id;
     protected String userName;
     protected String email;
     protected String password;

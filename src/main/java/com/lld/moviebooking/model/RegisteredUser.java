@@ -19,12 +19,4 @@ public class RegisteredUser extends User {
         super(userName, email, password, firstName, lastName, gender);
         this.bookingHistory = new ArrayList<>();
     }  
-
-    public boolean resetPassword(String newPassword, String oldPassword) {
-        return true;
-    }
-
-    public RegisteredUser login(String userName, String password) {
-        return null;
-    }
 }
